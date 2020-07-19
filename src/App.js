@@ -7,12 +7,23 @@ import Ref1 from './Components/Pratice_code/Ref1';
 import useEffectHook1 from './Components/useEffectHook1';
 import cleanClass from './Components/cleanClass';
 import HookMouse from './Components/HookMouse';
+import Mouseclean from './Components/Mouseclean';
+import IntervalClassCounter from './Components/IntervalClassCounter';
+import IntervalHookCounter from './Components/IntervalHookCounter';
+import DataFetching from './Components/DataFetching';
 
 function App() {
   return (
     <div className="App">
-      <HookMouse /> 
-       </div>
+{/*       <HookMouse /> 
+ */}     
+{/*  <Mouseclean />
+ */}
+{/*   <IntervalClassCounter />
+ */}  
+ {/* <IntervalHookCounter />  */}
+ <DataFetching />
+ </div>
   );
 }
 
